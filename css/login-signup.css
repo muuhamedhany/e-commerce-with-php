@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3B1C32 ;
+    font-family: 'Trebuchet MS';
+}
+.signup {
+    position: relative;
+    width: 100%;
+    margin-top: 400px;
+}
+
+.signup-cont {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: aqua;
+    padding: 20px 70px;
+    border: solid 2px #472c3a;
+    border-radius: 10px;
+    background-color: #703553;
+    color: #eeee;
+}
+
+.td {
+    color: #eeee;
+}
+
+#username, #email, #password, #cpassword {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 5%;
+    border-radius: 6px;
+    border: solid 3px #612c46;
+    
+}
+
+input[type='text']:hover ,
+ input[type='email']:hover ,
+  input[type='password']:hover {
+   
+    padding: 20px 0px;
+    padding-left: 10px;
+    transition: 500ms;
+}
+
+input[type='submit'] {
+    font-size:large;
+    font-family:'Trebuchet MS';
+    width: 65%;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #EEEEEE;
+    background-color: 1A1A1D;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type='submit']:hover {
+    background-color: 3B1C32;
+    transition: 1s;
+    padding-top: 15px;
+}
+
+.login-btn {
+    font-size:large;
+    font-family:'Trebuchet MS';
+    width: 65%;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #EEEEEE;
+    background-color: 1A1A1D;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+.login-btn:hover {
+    background-color: 3B1C32;
+    transition: 1s;
+    padding-top: 15px;
+}

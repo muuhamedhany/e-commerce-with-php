@@ -1,0 +1,137 @@
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='50.5' patternTransform='scale(2) rotate(155)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(240,6.7%,17.6%,1)'/><path d='M45.69 13.342c-1.677.945-3.557 1.6-5.48 1.588-1.922-.012-3.795-.691-5.462-1.653-1.668-.962-3.156-2.202-4.637-3.435-1.48-1.232-2.97-2.47-4.641-3.427-1.67-.957-3.547-1.628-5.47-1.628-1.923 0-3.8.67-5.47 1.628-1.67.956-3.161 2.195-4.641 3.427-1.48 1.233-2.97 2.473-4.637 3.435-1.667.962-3.54 1.641-5.463 1.653-1.922.012-3.802-.643-5.478-1.588v13.316c1.676-.945 3.556-1.6 5.478-1.588 1.923.012 3.796.691 5.463 1.653 1.668.962 3.156 2.202 4.637 3.435 1.48 1.232 2.97 2.47 4.641 3.427 1.67.957 3.547 1.628 5.47 1.628 1.923 0 3.8-.67 5.47-1.628 1.67-.956 3.161-2.195 4.641-3.427 1.48-1.233 2.97-2.473 4.637-3.435 1.667-.962 3.54-1.641 5.463-1.653 1.922-.012 3.802.643 5.478 1.588z'  stroke-width='3.5' stroke='%23472c3aff' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,-44)' fill='url(%23a)'/></svg>")  }
+  main {
+    flex: 1;
+  }
+
+  /*---------------------NAVBAR-------------------*/
+
+  .navbar {
+    padding: 25px 40px;
+    display: flex;
+    align-items: center;
+    background-color: 1A1A1D;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.navbar nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-grow: 1;
+    justify-content: flex-start;
+}
+
+.navbar nav ul {
+    margin-bottom: 0px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: x-large;
+}
+
+.auth-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-top: 0;
+    margin-left: auto;
+    align-items: center;
+}
+
+.auth-links li a {
+   margin-top: 10px;
+} 
+
+.auth-links li a:hover {
+    transition: 250ms;
+    background-color: #A64D79;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 1000;
+}
+
+/*--------------------PRODUCTS---------------*/
+
+.prod-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+#prod1 {
+  margin-right: 25px;
+}
+
+.prod3 {
+    margin-left: 25px;
+}
+
+.prod1, .prod2, .prod3{
+    background-color: #EEEEEE;
+    color: #1A1A1D;
+    border-radius: 10px;
+    height: fit-content;
+} 
+
+.prod-cont p {
+    margin: 0px;
+}
+
+input[value='VIEW'] {
+    margin-bottom: 25px;
+    width: 150px;
+}
+
+select {
+  margin-left:25px;
+  margin-bottom:20px;
+  font-size: x-large;
+  border: solid #A64D79;
+  border-radius: 8px;
+  background: rgb(109, 104, 108);
+  color: #EEEEEE;
+  padding: 5px;
+}
+
+   /*--------------------FOOTER---------------*/
+  
+  .footer {
+    
+    background-color: #1A1A1D;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .footer p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  button[name='delete all'] {
+    font-size:large;
+    font-family:'Trebuchet MS';
+    display: block;
+    margin: 15px;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #EEEEEE;
+    background-color: 1A1A1D;
+    border: none;
+    border-radius: 10px;
+  }

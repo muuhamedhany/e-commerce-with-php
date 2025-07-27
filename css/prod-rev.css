@@ -1,0 +1,25 @@
+.p {
+    display: block;
+    padding-top: 30px;
+    padding-right: 40px;
+}
+
+p {
+    padding-left: 40px;
+    text-align: left;
+    display: block;
+}
+
+.p1 {
+    font-size: larger;
+}
+
+ul li {
+    margin-left:15px;
+}
+
+input[value='ADD TO CART'] {
+    margin: 0;
+    padding: 15px 10px; 
+    font-size: x-large;
+}
